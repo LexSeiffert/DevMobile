@@ -1,18 +1,11 @@
-import { Text, View } from "react-native";
-import React from "react";
+import Botao from "./components/Botao";
+import Saudacao from "./components/Saudacao";
+import Flex from "./components/Flex";
+import Header from "./components/Header";
+import Scroll from "./components/Scroll";
+import Flat from "./components/Flat";
+import Input from "./components/Input";
 
 export default function App() {
-  return (
-    <View style={{ flex: 1, backgroundColor: "#121212" }}>
-      <View style={{ height: 65, backgroundColor: "#121212" }}>
-        <Text style={{ color: "#fff" }}>Header</Text>
-      </View>
-      <View style={{ flex: 1, backgroundColor: "#ddd" }}>
-        <Text style={{ color: "#fff" }}>Componentes</Text>
-      </View>
-      <View style={{ height: 65, backgroundColor: "#121212" }}>
-        <Text style={{ color: "#fff" }}>Footer</Text>
-      </View>
-    </View>
-  );
+  return <Input />;
 }
