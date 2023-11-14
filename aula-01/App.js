@@ -5,7 +5,9 @@ import Header from "./components/Header";
 import Scroll from "./components/Scroll";
 import Flat from "./components/Flat";
 import Input from "./components/Input";
+import List from "./List";
+import Section from "./components/Section";
 
 export default function App() {
-  return <Input />;
+  return <Section />;
 }
